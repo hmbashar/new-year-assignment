@@ -101,6 +101,45 @@
 			</div>
 		</section> <!--/ Call To Action-->      
 
+		<!--Contact Area-->
+		<section class="contact-area">
+			<div class="contact container">
+				<div class="contact-heading">
+					<h2>LEAVE ME A MESSAGE</h2>
+				</div>
+
+				<div class="contact-content-area">
+                    <!--Contact Form-->
+                    <div class="contact-form">
+                        <form action="process.php" method="POST">
+                            <input type="text" name="name" id="name" placeholder="Name" required/>
+                            <input type="email" name="email" id="email" placeholder="Email" required/>
+                            <textarea rows="8" name="message" cols="50" placeholder="Message" required></textarea>
+                            <input type="submit" class="btn-primary" value="Send Message" />
+                        </form>
+                    
+                    </div><!-- /.Contact Form -->
+                    
+                    <!--Contact Address-->
+                    <div class="contact-address">
+                        <div class="contact-phone">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>Phone: +98 74563210</p>
+                        </div>
+                        <div class="contact-email">
+                            <i class="fa-solid fa-envelope"></i>
+                            <p>contact@email.com</p>						
+                        </div>
+                        <div class="contact-add">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>Address: Bak-One Company<br/>12345 Hollywood Bvld Street<br/>Los Angeles, California</p>
+                        </div>
+                    </div><!-- /.Contact Address -->
+
+                </div>
+
+			</div>            
+		</section><!-- /.Contact Area -->
 
     </main><!--/ Main-->
 
@@ -133,5 +172,6 @@
         </div>
     </footer><!--/ Footer Area-->
 
+    <script src="https://kit.fontawesome.com/67b68b7f83.js" crossorigin="anonymous"></script>
 </body>
 </html>
