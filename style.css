@@ -1,3 +1,28 @@
 * {
     margin:0;
 }
+
+
+
+.header-area {
+    background-image: url(images/banner/banner.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .header {
+    padding: 200px 230px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+  .header-right h1 {
+    color: #151414;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+  }
+  .header-right {
+    text-align: right;
+    width: 420px;
+  }
