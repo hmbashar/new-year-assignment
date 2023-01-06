@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding:0;
+    padding: 0;
 }
 
 
@@ -24,6 +24,9 @@ body {
 
 }
 
+.container {
+    width: 1140px;
+}
 
 /*------------------
 * Others CSS 
@@ -101,9 +104,133 @@ body {
     font-size: 16px;
     line-height: 26px;
     margin-bottom: 8px;
-    padding-left:20px;
+    padding-left: 25px;
     background-image: url(images/icons/list-item-bg.png);
     background-repeat: no-repeat;
     background-position: left 8px;
     background-size: 15px;
 }
+
+
+
+
+.my-plan-top {
+    text-align: center;
+}
+
+.my-plan-top h2 {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 50px;
+}
+
+.my-plan-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.single-plan img {
+    margin-bottom: 20px;
+}
+
+.single-plan {
+    text-align: center;
+}
+
+.single-plan h2 {
+    color: #151414;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.single-plan p {
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+}
+
+.call-to-action-area {
+    display: none;
+}
+
+.footer-area {
+    margin: 130px auto 0 auto;
+    background-color: #151414;
+    padding: 130px 0;
+}
+
+
+.footer {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.footer-left {
+    flex-basis: 500px;
+}
+
+.footer-right {
+    flex-basis: 300px;
+}
+
+.footer-left h2 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.footer-left p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+.social-profile {
+    margin-top: 16px;
+    display: flex;
+    gap: 15px;
+}
+
+
+
+.footer-right h2 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    margin-bottom: 30px;
+  }
+  .footer-right input {
+    border: 1px solid #fff;
+    width: 100%;
+    border-radius: 8px;
+    padding: 21px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 16px;
+  }
+  .footer-right input[type="submit"] {
+    background-color: #fff;
+    width: inherit;
+    padding: 20px 36px;
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Inter';
+  }
