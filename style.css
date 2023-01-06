@@ -158,28 +158,31 @@ body {
 }
 
 .call-to-action-area {
-margin:0 auto;
+    margin: 0 auto;
 }
+
 .call-to-action {
-	padding: 60px;
-	border-radius: 8px;
-	margin-top: 130px;
-	background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),url(../images/watch.png);
+    padding: 60px;
+    border-radius: 8px;
+    margin-top: 130px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(../images/watch.png);
 }
-.call-to-action h2{
-	font-weight: 700;
-	font-size: 40px;
-	margin-bottom: 25px;
-	color: #fff;
+
+.call-to-action h2 {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 25px;
+    color: #fff;
 }
-.call-to-btn{
-	font-weight: 600;
-	font-size: 20px;
-	background-color: ##fff;
-	color: ##F15B22;
-	border: 0;
-	border-radius: 5px;
-	padding: 20px 35px;
+
+.call-to-btn {
+    font-weight: 600;
+    font-size: 20px;
+    background-color: ##fff;
+    color: ##F15B22;
+    border: 0;
+    border-radius: 5px;
+    padding: 20px 35px;
     cursor: pointer;
 }
 
@@ -234,8 +237,9 @@ margin:0 auto;
     font-size: 25px;
     line-height: 29px;
     margin-bottom: 30px;
-  }
-  .footer-right input {
+}
+
+.footer-right input {
     border: 1px solid #fff;
     width: 100%;
     border-radius: 8px;
@@ -245,8 +249,9 @@ margin:0 auto;
     font-size: 18px;
     line-height: 21px;
     margin-bottom: 16px;
-  }
-  .footer-right input[type="submit"] {
+}
+
+.footer-right input[type="submit"] {
     background-color: #fff;
     width: inherit;
     padding: 20px 36px;
@@ -256,4 +261,4 @@ margin:0 auto;
     line-height: 24px;
     font-family: 'Inter';
     cursor: pointer;
-  }
+}
